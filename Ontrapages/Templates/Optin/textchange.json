@@ -63,14 +63,46 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//h1[@id='templates_optin_top_header_scarab_item']/p"
+        "value": "//div[@id='op_template_selector']/div[3]/div[1]/div[2]/img"
+      }
+    },
+    {
+      "type": "pause",
+      "waitTime": "5000"
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "id",
+        "value": "fblike_opt"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "id",
+        "value": "twitter_opt"
+      }
+    },
+    {
+      "type": "setElementSelected",
+      "locator": {
+        "type": "id",
+        "value": "google_opt"
       }
     },
     {
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//html"
+        "value": "//h1[@id='templates_optin_top_header_scarab_item']/p"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "_mce_item_18"
       }
     },
     {
@@ -84,7 +116,7 @@
       "type": "clickElement",
       "locator": {
         "type": "xpath",
-        "value": "//a[@id='mce_105_aria']//span[.='Book Antiqua']"
+        "value": "//a[@id='mce_25_aria']//span[.='Comic Sans MS']"
       }
     },
     {
@@ -97,8 +129,8 @@
     {
       "type": "clickElement",
       "locator": {
-        "type": "name",
-        "value": "publish"
+        "type": "xpath",
+        "value": "//div[@class='op_button_wrapper']/div[1]/input[2]"
       }
     }
   ]
